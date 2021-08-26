@@ -6,12 +6,8 @@ alert ("Il numero estratto per il giocatore è:" + playernum);
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 if (pcnum > playernum) {
     alert ("Ha vinto il computer! Ricarica la pagina per tirare ancora i dadi.");
-}
-
-if (playernum > pcnum) {
+} else if (playernum > pcnum) {
     alert ("Ha vinto il giocatore! Ricarica la pagina per tirare ancora i dadi.");
-}
-
-if (playernum == pcnum) {
+} else {
     alert ("Pareggio! Ricarica la pagina per tirare ancora i dadi.");
 }
